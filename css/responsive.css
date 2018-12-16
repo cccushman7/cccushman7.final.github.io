@@ -20,12 +20,13 @@
 	*************************/
 
 	#gallery li {
-		width: 28.3333%;
+		width: 27.3333%;
 	}
 
-	#gallery li: nth-child(4n) {
-		clear: left;
-	}
+    #gallery li:nth-child(3n + 1) {
+  		clear: left;
+     }
+  
 
 
 
@@ -78,7 +79,7 @@
 	}
 
 	header {
-		border-bottom: 5px solid #C8C8C8;
+		border-bottom: 5px solid #696969;
 		margin-bottom: 40px;
 	}
 
