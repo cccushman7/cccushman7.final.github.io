@@ -60,12 +60,91 @@ h2 {
 	font-weight: normal;
 }
 
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background: none;
+  float: right;
+  font-size: 1.125em;
+  margin-right: 5%;
+  text-align: right;
+  width: 45%;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+  }
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  margin-right: 5%;
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C6C3C4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
 /************************
 NAVIGATION
 *************************/
 
 nav {
-	text-align: center;
+	text-align: right;
 	padding: 10px 0;
 	margin: 20px 0 0;
 
@@ -197,8 +276,8 @@ a {
 
 
 header{
-	background: 	#696969;
-	border-color: #696969;
+	background: 	#797979;
+	border-color: #797979;
 }
 
 h1, h2 {
@@ -206,23 +285,19 @@ h1, h2 {
 }
 
 
-nav {
-	background: #599a68;
-}
-
 nav a, nav a:visited {
 	color: #fff;
 
 }
 
 nav a.selected, nav a:hover {
-	color: #000000;
+	color: #fff;
 }
 
 
 body {
 	background-color: #fff;
-	color: #999;
+	color: #fff;
 }
 
 

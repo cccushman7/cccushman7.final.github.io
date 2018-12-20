@@ -41,7 +41,6 @@
 
 
 
-
 }
 
 @media screen and (min-width: 660px) {
@@ -50,16 +49,6 @@
 	/*	***********************
 	HEADER
 	*************************/
-
-	nav {
-		background: none;
-		float: right;
-		font-size: 1.125em;
-		margin-right: 5%;
-		text-align: right;
-		width: 45%;
-	}
-
 
 	#logo {
 		float: left;
@@ -79,11 +68,11 @@
 	}
 
 	header {
-		border-bottom: 5px solid #696969;
+		border-bottom: 5px solid #797979;
 		margin-bottom: 40px;
 	}
 
-
+]
 
 
 }
