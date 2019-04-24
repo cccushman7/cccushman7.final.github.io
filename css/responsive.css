@@ -58,17 +58,13 @@
 	}
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 2.25em;
 
 	}
 
-	h2 {
-		font-size: 0.825em;
-		margin-bottom: 20px;
-	}
 
 	header {
-		border-bottom: 5px solid #797979;
+		border-bottom: 1px solid white;
 		margin-bottom: 40px;
 	}
 
